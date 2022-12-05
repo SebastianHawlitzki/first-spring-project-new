@@ -11,7 +11,7 @@ import java.util.List;
 @RequestMapping("/car")
 public class CarController {
 
-    private final static CarService service = new CarService();
+    private final CarService service = new CarService();
 
     @PostMapping
     public Car postCar(@RequestBody Car car){

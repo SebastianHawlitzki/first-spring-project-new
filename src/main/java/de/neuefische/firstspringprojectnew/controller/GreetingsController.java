@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/helloworld")
 public class GreetingsController {
-private String name = "";
+    private String name = "";
 
     @GetMapping
     public String helloWorldController() {
@@ -26,22 +26,15 @@ private String name = "";
     */
 
     @PostMapping
-    public String postName(@RequestBody String newName){
+    public String postName(@RequestBody String newName) {
         name = newName;
         return "Name was set to: " + name;
     }
 
     // Aufgabe
-@GetMapping(path = "{name}")
+    @GetMapping(path = "{name}")
     public String firstName(@PathVariable String name, @RequestParam String greeting) {
         return greeting + " " + name;
-}
-/*
-@PostMapping
-    public String postLengthName(@RequestBody String nameLength){
-        name = "Sebastian Hawlitzki";
-        name = nameLength.length();
-        return "Length of Name is set to: ";
-}*/
+    }
 
 }
