@@ -13,8 +13,9 @@ public class CarRepo {
 
 
     // Auto zur Liste hinzufügen
-    public void addCar(Car car){
-       this.carList.add(car);
+    public Car addCar(Car car) {
+        this.carList.add(car);
+        return car;
     }
 
     public List<Car> getCars() {

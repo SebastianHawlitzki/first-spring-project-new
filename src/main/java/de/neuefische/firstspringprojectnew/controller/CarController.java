@@ -14,8 +14,8 @@ public class CarController {
     private final static CarService service = new CarService();
 
     @PostMapping
-    public void postCar(@RequestBody Car car){
-        service.addCar(car);
+    public Car postCar(@RequestBody Car car){
+        return service.addCar(car);
 
     }
 
