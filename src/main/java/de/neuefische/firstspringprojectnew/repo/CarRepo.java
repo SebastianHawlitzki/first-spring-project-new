@@ -1,6 +1,6 @@
-package de.neuefische.repo;
+package de.neuefische.firstspringprojectnew.repo;
 
-import de.neuefische.model.Car;
+import de.neuefische.firstspringprojectnew.model.Car;
 
 import java.util.ArrayList;
 import java.util.List;

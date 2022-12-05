@@ -1,4 +1,4 @@
-package de.neuefische.model;
+package de.neuefische.firstspringprojectnew.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

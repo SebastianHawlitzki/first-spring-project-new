@@ -1,7 +1,7 @@
-package de.neuefische.service;
+package de.neuefische.firstspringprojectnew.service;
 
-import de.neuefische.model.Car;
-import de.neuefische.repo.CarRepo;
+import de.neuefische.firstspringprojectnew.model.Car;
+import de.neuefische.firstspringprojectnew.repo.CarRepo;
 import org.springframework.stereotype.Service;
 import java.util.List;
 

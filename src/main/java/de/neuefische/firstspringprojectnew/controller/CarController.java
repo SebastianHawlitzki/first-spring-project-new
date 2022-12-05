@@ -1,8 +1,7 @@
 package de.neuefische.firstspringprojectnew.controller;
 
-import de.neuefische.model.Car;
-import de.neuefische.repo.CarRepo;
-import de.neuefische.service.CarService;
+import de.neuefische.firstspringprojectnew.model.Car;
+import de.neuefische.firstspringprojectnew.service.CarService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
